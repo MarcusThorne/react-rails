@@ -113,8 +113,6 @@ GEM
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.3)
-    rack-mini-profiler (2.3.4)
-      rack (>= 1.2.0)
     rack-proxy (0.7.2)
       rack
     rack-test (1.1.0)
@@ -177,9 +175,6 @@ GEM
       sprockets (>= 3.0.0)
     thor (1.2.1)
     tilt (2.0.10)
-    turbolinks (5.2.1)
-      turbolinks-source (~> 5.2)
-    turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     web-console (4.2.0)
@@ -215,12 +210,10 @@ DEPENDENCIES
   listen (~> 3.3)
   pg (~> 1.1)
   puma (~> 5.0)
-  rack-mini-profiler (~> 2.0)
   rails (~> 6.1.4, >= 6.1.4.4)
   sass-rails (>= 6)
   selenium-webdriver
   spring
-  turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
   webdrivers
@@ -230,4 +223,4 @@ RUBY VERSION
    ruby 3.0.3p157
 
 BUNDLED WITH
-   2.3.4
+   2.3.8
