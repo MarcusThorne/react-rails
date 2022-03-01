@@ -6,7 +6,7 @@ function Airline(props) {
   const [review, setReview] = useState({})
 
   useEffect(() => {
-    console.log(props.match)
+    console.log(props)
     // const slug = props.match.params.slug
     // const url = `/api/v1/airline/${slug}`
 
